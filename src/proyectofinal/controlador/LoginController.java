@@ -18,6 +18,7 @@ import javafx.stage.Stage;
 public class LoginController {
 
    private Stage stage;
+   private HomeController homecontroller;
 
     @FXML
     private PasswordField txtclave;
@@ -47,5 +48,10 @@ public class LoginController {
 
      void show() {
        stage.show();
+    }
+
+    void init(Stage primaryStage, HomeController homecontroller) {
+         this.homecontroller=homecontroller;
+        this.stage=primaryStage;
     }
 }

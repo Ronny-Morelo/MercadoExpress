@@ -14,6 +14,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
+import proyectofinal.controlador.HomeController;
 import proyectofinal.controlador.LoginController;
 
 /**
@@ -25,12 +26,12 @@ public class ProyectoFinal extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
        
-        FXMLLoader loader   = new FXMLLoader(getClass().getResource("/proyectofinal/vistas/Login.fxml"));
+        FXMLLoader loader   = new FXMLLoader(getClass().getResource("/proyectofinal/vistas/Home.fxml"));
         Parent root =loader.load();
                
-        primaryStage.setTitle("Login");
+        primaryStage.setTitle("Home");
         primaryStage.setScene(new Scene(root));
-        LoginController controller = loader.getController();
+        HomeController controller = loader.getController();
         controller.setStage(primaryStage);
         primaryStage.show();
     }
