@@ -8,11 +8,11 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="541.0" prefWidth="738.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.HomeController">
+<AnchorPane id="AnchorPane" prefHeight="565.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.HomeController">
    <children>
-      <Pane layoutX="3.0" layoutY="3.0" prefHeight="43.0" prefWidth="729.0" style="-fx-background-color: #d71224;">
+      <Pane layoutX="3.0" layoutY="3.0" prefHeight="43.0" prefWidth="772.0" style="-fx-background-color: #d71224;">
          <children>
-            <Button fx:id="btnInicioSesion" layoutX="608.0" layoutY="6.0" mnemonicParsing="false" onAction="#IniciarSesion" style="-fx-background-color: #fbfafa;" text="Iniciar Sesion" textFill="#b23b3b">
+            <Button fx:id="btnInicioSesion" layoutX="644.0" layoutY="6.0" mnemonicParsing="false" onAction="#IniciarSesion" style="-fx-background-color: #fbfafa;" text="Iniciar Sesion" textFill="#b23b3b">
                <font>
                   <Font name="System Bold" size="15.0" />
                </font>
@@ -24,11 +24,33 @@
             <Image url="@../../imagenes/Iphone_15_pro_128.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="107.0" layoutY="300.0" text="US$ 200 ">
+      <Label layoutX="102.0" layoutY="301.0" text="US$ 1.200 ">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
       </Label>
       <Label layoutX="72.0" layoutY="281.0" text="Iphone 15 Pro 128 Gb" />
+      <ImageView fitHeight="213.0" fitWidth="231.0" layoutX="252.0" layoutY="117.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/MacBook_Pro_16.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="322.0" layoutY="281.0" text="MacBook_Pro_16" />
+      <Label layoutX="348.0" layoutY="301.0" text="US$ 3.800 ">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="213.0" fitWidth="231.0" layoutX="525.0" layoutY="75.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Televisor_Smart_75_Neo_Qled_4k_Qn85d.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="553.0" layoutY="281.0" text="Televisor_Smart_75_Neo_Qled" />
+      <Label layoutX="619.0" layoutY="301.0" text="US$ 1750">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
