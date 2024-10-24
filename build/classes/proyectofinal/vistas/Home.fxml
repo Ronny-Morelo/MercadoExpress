@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="611.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.HomeController">
+<AnchorPane id="AnchorPane" prefHeight="937.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.HomeController">
    <children>
       <Pane layoutX="3.0" layoutY="3.0" prefHeight="43.0" prefWidth="772.0" style="-fx-background-color: #d71224;">
          <children>
@@ -46,7 +46,7 @@
             <Image url="@../../imagenes/Televisor_Smart_75_Neo_Qled_4k_Qn85d.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="553.0" layoutY="281.0" text="Televisor_Smart_75_Neo_Qled" />
+      <Label layoutX="553.0" layoutY="281.0" text="Televisor Smart 75 Neo Qled" />
       <Label layoutX="619.0" layoutY="301.0" text="US$ 1750">
          <font>
             <Font name="System Bold" size="11.0" />
@@ -62,22 +62,36 @@
             <Image url="@../../imagenes/Zapatos_Vans.jpg" />
          </image>
       </ImageView>
-      <Label layoutX="334.0" layoutY="551.0" text="Zapatos Vans">
-         <font>
-            <Font size="11.0" />
-         </font>
-      </Label>
-      <Label layoutX="68.0" layoutY="551.0" text="Camiseta Negra Basica">
-         <font>
-            <Font size="11.0" />
-         </font>
-      </Label>
+      <Label layoutX="334.0" layoutY="551.0" text="Zapatos Vans" />
+      <Label layoutX="68.0" layoutY="551.0" text="Camiseta Negra Basica" />
       <Label layoutX="105.0" layoutY="574.0" text="US$ 10">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
       </Label>
       <Label layoutX="353.0" layoutY="574.0" text="US$ 70">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="210.0" fitWidth="198.0" layoutX="538.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Jeans_Clasico.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="555.0" layoutY="551.0" text="Jeans Clasico" />
+      <Label layoutX="576.0" layoutY="574.0" text="US$ 10">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="210.0" fitWidth="198.0" layoutX="40.0" layoutY="635.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Nevera_Samsung_French_Door_859L.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="37.0" layoutY="854.0" text="Nevera Samsung French Door 859L" />
+      <Label layoutX="105.0" layoutY="879.0" text="US$ 1.900">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
