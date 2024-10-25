@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="937.0" prefWidth="779.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.HomeController">
+<AnchorPane id="AnchorPane" prefHeight="1316.0" prefWidth="783.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="proyectofinal.controlador.HomeController">
    <children>
       <Pane layoutX="3.0" layoutY="3.0" prefHeight="43.0" prefWidth="772.0" style="-fx-background-color: #d71224;">
          <children>
@@ -114,6 +114,39 @@
       </ImageView>
       <Label layoutX="516.0" layoutY="854.0" text="Lavadora Automatica Mabe" />
       <Label layoutX="575.0" layoutY="879.0" text="US$ 1.170">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="210.0" fitWidth="198.0" layoutX="32.0" layoutY="923.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Cocina_Infantil_Rosa.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="71.0" layoutY="1129.0" text="Cocina Infantil Rosa" />
+      <Label layoutX="109.0" layoutY="1155.0" text="US$ 75 ">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="210.0" fitWidth="198.0" layoutX="271.0" layoutY="923.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Juego_Parques.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="210.0" fitWidth="198.0" layoutX="514.0" layoutY="912.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../imagenes/Lego_Minecraft.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="337.0" layoutY="1122.0" text="Juego Parques" />
+      <Label layoutX="566.0" layoutY="1122.0" text="Lego Minecraft" />
+      <Label layoutX="587.0" layoutY="1155.0" text="US$ 16">
+         <font>
+            <Font name="System Bold" size="11.0" />
+         </font>
+      </Label>
+      <Label layoutX="354.0" layoutY="1155.0" text="US$ 13">
          <font>
             <Font name="System Bold" size="11.0" />
          </font>
