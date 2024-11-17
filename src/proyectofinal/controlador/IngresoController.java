@@ -23,7 +23,7 @@ public class IngresoController {
 
     @FXML
     void Salir(ActionEvent event) {
-        controllerlogin.show();
+        //controllerlogin.show();
         stage.close();
     }
 

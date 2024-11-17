@@ -29,20 +29,12 @@ public class HomeController implements Initializable {
      * Initializes the controller class.
      */
        @FXML
-    private Button btnInicioSesion;
+    private Button btnInicioSesion1;
 
     @FXML
     void IniciarSesion(ActionEvent event) throws IOException {
 
-         FXMLLoader loader   = new FXMLLoader(getClass().getResource("/proyectofinal/vistas/Login.fxml"));
-        Parent root =loader.load();
-        LoginController controller = loader.getController();
-        Stage primaryStage =new Stage();   
-        primaryStage.setTitle("Ingreso");
-        primaryStage.setScene(new Scene(root));
-        controller.init( primaryStage,this);
-        primaryStage.show();
-        this.stage.close();
+      
     }
 
     @Override
