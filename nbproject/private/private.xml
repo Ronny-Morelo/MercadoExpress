@@ -3,10 +3,19 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/vistas/Carrito.fxml</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/vistas/Opciones_User.fxml</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/vistas/Logo.fxml</file>
             <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/HomeController.java</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/vistas/lista_deseos.css</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/LoginController.java</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/CarritoController.java</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/Lista_DeseosController.java</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/Opciones_UserController.java</file>
             <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/IngresoController.java</file>
             <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/ProyectoFinal.java</file>
-            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/LoginController.java</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/controlador/LogoController.java</file>
+            <file>file:/C:/Users/RONNY/Documents/NetBeansProjects/ProyectoFinal/src/proyectofinal/vistas/Lista_Deseos.fxml</file>
         </group>
     </open-files>
 </project-private>
